@@ -1,0 +1,72 @@
+#map {
+    height: 90%;
+    top: 95%;
+    border-radius: 5rem;
+}
+
+body {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+html,
+body {
+    background-image: url("fundo2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 34, 34);
+    cursor: pointer;
+}
+
+div.Pesquisa {
+    margin: 0;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#Botao {
+    padding: 5px;
+    margin: 0;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.cabeca {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.856);
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+div.Info {
+    color: rgb(245, 239, 231);
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin: 0;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
